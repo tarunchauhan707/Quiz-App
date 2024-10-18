@@ -1,0 +1,20 @@
+{
+  "name": "quiz-app1",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "cd backend && npm start",
+    "build": "cd frontend && npm run build",
+    "postbuild": "move frontend/build backend/public"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express-async-handler": "^1.2.0",
+    "jsonwebtoken": "^9.0.2"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
