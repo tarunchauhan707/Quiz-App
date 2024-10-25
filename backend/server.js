@@ -21,7 +21,7 @@ app.use(express.json()); // Middleware to parse JSON requests
 app.use(
   cors({
     credentials: true,
-    origin: ['http://localhost:3000'], // Allow CORS for the frontend
+    origin: ['https://quiz-app-1o6s.vercel.app/'], // Allow CORS for the frontend
   })
 );
 
